@@ -4,17 +4,20 @@
   "scripts": {
     "dev": "wrangler dev",
     "deploy": "wrangler deploy --minify",
-    "cf-typegen": "wrangler types --env-interface CloudflareBindings"
+    "cf-typegen": "wrangler types --env-interface CloudflareBindings",
+    "test": "vitest run"
   },
   "dependencies": {
+    "@neon/config": "^1.8.4",
+    "@neon/env": "^1.5.1",
     "@neondatabase/serverless": "^1.2.0",
     "arktype": "^2.2.7",
-    "dotenv": "^18.0.6",
     "drizzle-orm": "1.0.0-rc.4",
-    "hono": "^4.13.13",
-    "typescript": "7.0.2"
+    "hono": "^4.13.13"
   },
   "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "^5",
     "drizzle-kit": "1.0.0-rc.4",
     "tsx": "^4.23.15",
     "wrangler": "^4.110.0"
