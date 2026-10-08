@@ -1,0 +1,61 @@
+{
+  "$schema": "https://job-hunter.local/profile/v0.1.json",
+  "candidate": {
+    "name": "Alex (single-user default)",
+    "email": "owner@example.com",
+    "active": true,
+    "experience": [
+      {
+        "title": "Full Stack Engineer",
+        "company": "Remote (Ukraine-based)",
+        "startDate": "2020-01",
+        "endDate": "present",
+        "summary": "TypeScript/Node.js backend + React/Next.js frontend. PostgreSQL + Redis for data layer."
+      }
+    ],
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "Next.js",
+      "PostgreSQL",
+      "Redis",
+      "REST APIs",
+      "System Design"
+    ],
+    "technologies": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "Next.js",
+      "PostgreSQL",
+      "Redis"
+    ]
+  },
+  "jobProfile": {
+    "desiredRoles": ["Frontend Engineer", "Full Stack Engineer"],
+    "locations": [{ "country": "Ukraine", "remoteOnly": true }],
+    "workMode": ["Remote"],
+    "salaryRange": { "currency": "USD", "min": 500, "max": 1500, "period": "month" },
+    "preferredTechnologies": ["TypeScript", "Node.js", "React", "Next.js", "PostgreSQL", "Redis"],
+    "exclusionPatterns": [
+      "on-call",
+      "big tech FAANG",
+      "early-stage startup small team",
+      "legacy stack maintenance",
+      "adult industry",
+      "gambling",
+      "dating",
+      "nutra",
+      "blockchain",
+      "crypto",
+      "NFTs",
+      "gaming"
+    ],
+    "otherCriteria": {
+      "teamSizeMin": 10,
+      "mustIncludeRemote": true,
+      "positionLevels": ["Trainee", "Junior", "Middle", "Strong Junior-Middle"]
+    }
+  }
+}
