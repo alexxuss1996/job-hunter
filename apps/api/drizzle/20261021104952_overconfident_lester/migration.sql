@@ -1,0 +1,4 @@
+ALTER TABLE "job" ADD CONSTRAINT "job_salary_range_check" CHECK (("salaryMin" IS NULL OR "salaryMin" >= 0) AND ("salaryMax" IS NULL OR "salaryMax" >= 0) AND ("salaryMin" IS NULL OR "salaryMax" IS NULL OR "salaryMin" <= "salaryMax"));--> statement-breakpoint
+ALTER TABLE "job_profile" ADD CONSTRAINT "job_profile_salary_range_check" CHECK (("salaryMin" IS NULL OR "salaryMin" >= 0) AND ("salaryMax" IS NULL OR "salaryMax" >= 0) AND ("salaryMin" IS NULL OR "salaryMax" IS NULL OR "salaryMin" <= "salaryMax"));--> statement-breakpoint
+ALTER TABLE "job_profile" ADD CONSTRAINT "job_profile_min_match_score_check" CHECK ("minMatchScore" BETWEEN 0 AND 100);--> statement-breakpoint
+ALTER TABLE "match" ADD CONSTRAINT "match_score_check" CHECK ("score" BETWEEN 0 AND 100);
