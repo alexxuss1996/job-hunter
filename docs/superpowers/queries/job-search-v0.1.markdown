@@ -20,7 +20,7 @@
 | Work Mode | Remote |
 | Salary | 500-1500 USD/month |
 | Tech Stack | TypeScript, Node.js, React, Next.js, PostgreSQL, Redis |
-| Exclude | On-call, Big tech, early-stage startups, adult industry, gambling, dating, nutra, blockchain, crypto, NFTs, gaming |
+| Exclude | On-call, Big tech, early-stage startups, adult industry, gambling, dating, nutra, blockchain, crypto, NFTs, gaming, military |
 
 ## Expected Outputs
 
@@ -32,10 +32,10 @@
 
 ## Sources to Prioritize (v0.1)
 
-1. **LinkedIn** — professional profiles, job postings
-2. **GitHub** — open-source projects, developer activity
-3. **Company Career Pages** — remote-friendly companies
-4. **Vocational Boards** — Ukrainian job market platforms
+1. **Vocational Boards** — Ukrainian job market platforms (dou, djinni, jobico, joble, work.ua, etc.)
+2. **ATS Systems** — Greenhouse, Lever, Ashby, etc.
+3. **GitHub** — open-source projects, developer activity
+4. **Company Career Pages** — remote-friendly companies
 
 ## Notes
 
